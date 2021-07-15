@@ -1,0 +1,31 @@
+- CSS
+
+- Data() { return {}}
+- medthods
+- mouted() {}
+- computed *
+- asyncData() *
+
+- Pages
+    ----> /product.vue
+    ----> /product/_productId/_userId/_sasd
+        ------> ths.$route.params.productId
+        ------> ths.$route.params.userId
+        ------> ths.$route.params.sasd
+
+- Components
+    ----> props ( ส่งค่าไปให้ component )
+    ----> $emit ( ส่งจาก component กลับมาให้คนที่เรียกใช้ component )
+
+- v-if, v-else-if, v-else
+
+- v-for -> :key="อะไรสักอย่างที่ไม่ซ้ำ"
+
+
+- Store ( global variable ) เป็นที่เก็บตัวแปรที่สามารถใช้ได้ทั้ง project
+    ----> ตัวแปร
+    ----> function แบบ global
+
+- Call API (axios)
+
+- Deployment
