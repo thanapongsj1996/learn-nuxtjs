@@ -44,8 +44,8 @@
 import MoutainCard from '~/components/MoutainCard.vue'
 export default {
   components: { MoutainCard },
-  async asyncData({ $http }) {
-    const res = await $http.$get(`https://api.nuxtjs.dev/posts`)
+  async asyncData({ $axios }) {
+    const res = await $axios.$get(`https://api.nuxtjs.dev/posts`)
     return {
       moutains: res
     }

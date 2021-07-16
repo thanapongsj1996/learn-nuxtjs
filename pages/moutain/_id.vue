@@ -29,8 +29,8 @@
 
 <script>
 export default {
-    async asyncData({ $http, route }) {
-        const res = await $http.$get(`https://api.nuxtjs.dev/posts/${route.params.id}`)
+    async asyncData({ $axios, route }) {
+        const res = await $axios.$get(`https://api.nuxtjs.dev/posts/${route.params.id}`)
         return {
             moutain: res
         }
